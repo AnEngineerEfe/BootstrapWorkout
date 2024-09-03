@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Javascript!</title>
+    <link rel="icon" type="image/x-icon" href="https://e7.pngegg.com/pngimages/793/545/png-clipart-javascript-logo-computer-icons-vue-js-angle-text.png">
+    <link rel="stylesheet" href="Intro.css">
+    
+</head>
+<body id="body">
+    <h3>Color name</h3>
+    <input type="text" id="background" placeholder="adınız girin">
+    <input type="text" value=>
+    <p>Click on!</p>
+
+  
+<p id="p1">TEXT</p>
+
+<h3>Get element By ID</h3>
+<p id="p2">Normal Text</p>
+
+<button onclick="doJob()">Click</button>
+
+<button onclick="prompt()">Lol</button> <!-- prompt() kullanıcıdan input ister. -->
+
+<p id="p3">Lol</p>
+
+
+<script>
+    // const my= document.getElementById("p3");
+    // my.textContent="22222"
+//     console.log("Welcome");
+//     console.log("to");                 /*Bu console'lardan biri bile yanlış yazılırsa (hata yapılırsa) 
+//                                             tüm console'lar da çalışmaz! (Syntax error) */     
+//     console.log(39);   /* Sayıları istersen tırnakla istersen yapma */
+//     // alert("Hoşgeldiniz!");              /* Sayfa yüklenince ortaya çıkar */
+//     // alert(500);
+
+//     let item,fry="Bike";
+//     /* let num=900;
+//     num=12;
+
+//     let num=900;  ->  Üsttekine benzer duruyor ama error hatası verecek.Çünkü aynı adlı değişken 2 farklı değer veriyorsun.
+//     let num=12;   ->  num=12 ve num=900 oluyor yani 900=12 ama bu zaten yanlış! */
+//     // alert(fry);                    
+
+//     /*DOM (Document Object Model) :HTML dökümanları içerisinde bulunan nesnelere kolaylıkla erişim sağlamak ve üzerinde işlemler yapabilmek için tasarlanan bir modeldir. DOM ile HTML dosyamızda bulunan her şeye erişim sağlayabiliriz.
+//       HTML dosyasında bulunan bütün öğeler, DOM üzerinde bir nesne olarak görülür. DOM modelin ismi, document ise bu nesnelerin kapsayıcısıdır. */
+
+//     document.getElementById("p1"); // Erişim sağlar.
+//     var element = document.getElementById("p1");  // ID'si p1 olan elementi depoluyor.   document.getElementById("p1")=p 
+//     element.textContent="UpdatedText"
+//     document.getElementById("p2").textContent="Updated text";   // elementin text contentine erişir.
+
+//     p2.style.color="blue";
+//     p2.style.border="solid";
+
+//     function doJob() {
+//         let x=document.getElementById("p2");
+//         x.style.color="green";
+//         x.style.border="dashed";
+//     }
+
+//     function lol() {
+//         // alert(100);
+//     }
+//     lol();
+
+//     // built-in function: Halihazırda var bu fonksiyon.
+
+//     //Önce .js dosyasındakileri okuyor sonra script içindekileri
+
+//     //Camel-case=Her kelimenin ilk harfi büyük yazılır, sadece ilk harf (ilk kelimenin harfi) hariç.
+
+//     // let input=prompt("İsminizi giriniz");
+//    // document.getElementById("p3").textContent=input;
+//     // console.log(input);
+//     console.log(7/2*3);
+//     alert(15);
+
+//     //  (etiket).value : o etiketin değerine (varsayılan veya input değeri) erişir.
+
+//     // script içinde bir hata oldu mu o ve onun altındaki tüm komutlar çalışmaz!
+    
+//     let score=7+8;
+//     alert(score);
+
+console.log('Iron' + 'Man');   //Çıktısı IronMan olur! kelimeler birleşir yani. (alert'e de yapabilirsin)
+console.log('290' + '290');   // çıktısı 290290 olur (string çünkü)
+
+console.log(30>25);  // console'da çıktı 'true' olacak.
+
+let abt=true;
+// alert(abt);
+
+let m=90;
+let y=m<75;
+console.log(y);  // Çıktı False
+
+// confirm("Burada bir şeyler yazabilirsin") kullanıcıya bir şeyi kabul veya reddetmesini sorar.
+
+// === Eşittir demek
+
+let j=confirm("Are you okay?");
+console.log(j);   // true ya da false olarak çıktı olacak.
+
+</script>
+<script src="Intro.js"></script>
+</body>
+</html>
